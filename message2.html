@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message - Love You Forever</title>
+    <link rel="stylesheet" href="message2.css">
+</head>
+<body> 
+    <div class="container">
+        <h1>Forever In Love With You</h1>
+        <p> Every smile, every moment, and every memory we create together is a treasure in my heart. I love you today and forever.</p>
+
+        <div class="birthday-cake">
+            ❤️
+        </div>
+
+        <!-- Image gallery section -->
+        <h2>Our Beautiful Memories Together</h2>
+        <div class="gallery">
+            <img src="our3.jpg" alt="Special Moment 1" onclick="openLightbox(this)">
+            <img src="tr.jpg" alt="Special Moment 2" onclick="openLightbox(this)">
+            <img src="our5.jpg" alt="Special Moment 3" onclick="openLightbox(this)">
+            <img src="ann1.jpg" alt="Special Moment 4" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="fullImage">
+    </div>
+
+    <script src="message2.js"></script>
+</body>
+</html>

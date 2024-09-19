@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message About You</title>
+    <link rel="stylesheet" href="message1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To the Most Beautiful Soul</h1>
+        <p>You are the love of my life, and every day with you feels like a dream. Your beauty, your kindness, and your strength inspire me every single moment. I am forever grateful to have you by my side. I love you!</p>
+
+        <!-- Gallery of photos -->
+        <h2>Your Memory</h2>
+        <div class="gallery">
+            <img src="as2.jpg" alt="Beautiful Moment 1" onclick="openLightbox(this)">
+            <img src="eco.jpg" alt="Beautiful Moment 2" onclick="openLightbox(this)">
+            <img src="red.jpg" alt="Beautiful Moment 3" onclick="openLightbox(this)">
+            <img src="pencil.jpg" alt="Beautiful Moment 4" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="fullImage">
+    </div>
+    <script src="message1.js"></script>
+</body>
+</html>
